@@ -109,3 +109,13 @@ const profile = {
 };
 
 export default profile;
+
+// Each schema file must contain a name, title, and type property. Here's a brief breakdown of the function of each property:
+
+// The name key is the property that is used to reference a schema in the query language. The value must be a unique value to avoid conflating schemas.
+// title defines what the schema type is called in the Studio UI.
+// type defines what schema type you're working with. The document value will tell the studio that it should make it possible to make new documents.
+// The icon is an optional property you can add alongside the title. To use the icon, install the react-icons library with the command npm install -D react-icons
+// The fields array, is where the individual input fields will be defined.
+
+//The defineField() helper function helps enable auto-completion of field types in your schema file.
